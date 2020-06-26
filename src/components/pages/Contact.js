@@ -1,39 +1,32 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-// import Image from "./contact.png";
+import Image from "./contact.png";
 
-// const styles = {
-// Image: {
-//   display: "left"
-// }
-
-// }
-
+const styles = {
+  Image: {
+    justifyContent: "flex-end",
+    flexDirection: "row",
+  },
+};
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      {/* <img src={Image} alt="profile"/> */}
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link> */}
-      {/* <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
-    </div>
+    // <div className="container" style={styles.Image}>
+    //   <h1>Contact Page</h1>
+    //   <img style={styles.Image} src={Image} alt="profile" />
+    //     <p>
+    //       <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+    //       Nashville, TN
+    //     </p>
+    //     <p>
+    //       <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>{" "}
+    //       Phone: 615.310.1384
+    //     </p>
+    //     <p>
+    //       <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>{" "}
+    //       Email: T.eatherly@gmail.com
+    //     </p>
+    //   </div>
   );
 }
 
