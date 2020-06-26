@@ -22,7 +22,6 @@ function Home() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-     
     </div>
   );
 }
