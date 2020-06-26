@@ -2,11 +2,18 @@ import React from "react";
 import "../style/Home.css";
 import Image from "./TE.jpg";
 
+const styles = {
+  Image: {
+    maxWidth: "100%",
+    maxHeight: 700
+  }
+}
+
 function Home() {
   return (
     <div className="container">
       <h1>I am Theresa E.</h1>
-       <img src={Image} alt="profile image" />
+       <img style={styles.Image} src={Image} alt="profile" />
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

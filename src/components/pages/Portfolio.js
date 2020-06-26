@@ -9,10 +9,7 @@ import Image6 from "./genScreenShot.png";
 
 
 const styles = {
-  CardColumns: {
-    paddingTop: 20
-
-  },
+  
 buttonContainer: {
   display: "flex", 
   justifyContent: "space-between"

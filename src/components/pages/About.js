@@ -4,6 +4,8 @@ import{CardDeck, Card, Button} from "react-bootstrap";
 import Image from "./LinkedIn.card.png";
 import Image2 from "./Resume.png";
 import Image3 from "./github.png";
+import Pdf from "./resume.pdf";
+
 function About() {
   return (
    <CardDeck>
@@ -16,30 +18,24 @@ function About() {
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
   
-    
-  
   <Card>
     <Card.Img variant="top" src={Image2} alt="keyboard" />
        <Card.Footer>
-      <Button size="md" variant="dark" href="src\components\pages\resume.pdf" target="_blank">See My Skills</Button>
+      <Button size="md" variant="dark" href={Pdf} target="_blank">See My Skills</Button>
     </Card.Footer>
   </Card>
-
   <Card>
     <Card.Img variant="top" src={Image} alt="keyboard" />
        <Card.Footer>
       <Button size="md" variant="dark" href="https://www.linkedin.com/in/theresa-eatherly-4362b14a/" target="_blank">Join My Network</Button>
     </Card.Footer>
   </Card>
-
   <Card>
     <Card.Img variant="top" src={Image3} alt="keyboard" />
        <Card.Footer>
       <Button size="md" variant="dark" href="https://github.com/git-theresa" target="_blank">Explore My Work!</Button>
     </Card.Footer>
   </Card>
-  
-  
 </CardDeck>
   
   );
