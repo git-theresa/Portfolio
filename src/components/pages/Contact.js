@@ -1,11 +1,20 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+// import Image from "./contact.png";
+
+// const styles = {
+// Image: {
+//   display: "left"
+// }
+
+// }
 
 
 function Contact(props) {
   return (
     <div>
       <h1>Contact Page</h1>
+      {/* <img src={Image} alt="profile"/> */}
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
         Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean

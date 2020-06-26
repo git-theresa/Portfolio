@@ -6,9 +6,10 @@ import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 
+
 function App() {
   return (
-    <Router>
+        <Router>
       <div>
         <NavBar />
         <Route exact path="/" component={Home} />
@@ -17,6 +18,7 @@ function App() {
              <Route path="/contact" component={Contact} />
       </div>
     </Router>
+    
   );
 }
 
