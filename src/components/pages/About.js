@@ -1,10 +1,10 @@
 import React from "react";
 import "../style/Home.css";
 import{CardDeck, Card, Button} from "react-bootstrap";
-import Image from "./LinkedIn.card.png";
-import Image2 from "./Resume.png";
-import Image3 from "./github.png";
-import Pdf from "./resume.pdf";
+import Image from "../assets/LinkedIn.card.png";
+import Image2 from "../assets/Resume.png";
+import Image3 from "../assets/github.png";
+import Pdf from "../assets/resume.pdf";
 
 function About() {
   return (
