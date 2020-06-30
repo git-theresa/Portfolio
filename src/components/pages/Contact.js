@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Image from "./contact.png";
+import Image from "../assets/contact.png";
 
 const styles = {
   Image: {
