@@ -5,7 +5,7 @@
  
 #   
  
-  # **Project** Employee-Directory
+  # **React Portfolio**
   
   ##  **_Link_**
 https://git-theresa.github.io/Portfolio/
@@ -14,27 +14,24 @@ https://git-theresa.github.io/Portfolio/
   * Description
   * Technology Stack
   * Installation
-  * Usage
   * Contributors
   * Contact
   
   ##  **Description**
  
  
-<img src="assets/ed.png" alt="screenshot" />
+<!-- <img src="assets/ed.png" alt="screenshot" /> -->
 
  
  
 
   ## **Installation**
-  JSON Package Included
+  JSON Package Included - npm install
  
   ## **Technology Stack**
 HTML5, JavaScript, React.js
 
-  ##  **Usage**
-  Employee Directory uses and open-source API which generates random employees with name, image, phone number and email address. A user can filter by name simply by typing the first few letter of the employee's name, or hover over "Name" in the header tab and sort alphabetically in ascending order.
-
+ 
 
   #### **Contributors** 
 * @git-theresa
