@@ -6,10 +6,16 @@ import Image2 from "../assets/Resume.png";
 import Image3 from "../assets/github.png";
 import Pdf from "../assets/resume.pdf";
 
+const styles = {
+  CardDeck: {
+    textAlign: "center"
+  }
+}
+
 function About() {
   return (
-   <CardDeck>
-     <h1>About Me</h1>
+   <CardDeck >
+     <h1 style={styles.CardDeck}>About Me</h1>
     <p>
        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
