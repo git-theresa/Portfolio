@@ -1,15 +1,18 @@
 import React from "react";
 import {Card, CardColumns, Button} from "react-bootstrap";
-import Image from "./clouds.png";
-import Image2 from "./QJamz.png";
-import Image3 from "./plannerClocks.jpeg";
-import Image4 from "./chess.png";
-import Image5 from "./employee.gif";
-import Image6 from "./genScreenShot.png";
+import Image from "../assets/clouds.png";
+import Image2 from "../assets/QJamz.png";
+import Image3 from "../assets/plannerClocks.jpeg";
+import Image4 from "../assets/chess.png";
+import Image5 from "../assets/employee.gif";
+import Image6 from "../assets/genScreenShot.png";
 
 
 const styles = {
-  
+  cardColumns: {
+    paddingTop: "20px",
+    paddingBottom: "20px"
+  },  
 buttonContainer: {
   display: "flex", 
   justifyContent: "space-between"
@@ -22,7 +25,7 @@ button: {
 
 function Portfolio() {
   return (
-    <CardColumns>
+    <CardColumns style={styles.cardColumns}>
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={Image} alt="clouds" />
   <Card.Body>
