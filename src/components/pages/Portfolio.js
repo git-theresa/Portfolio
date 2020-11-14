@@ -5,7 +5,7 @@ import Image2 from "../assets/QJamz.png";
 import Image3 from "../assets/plannerClocks.jpeg";
 import Image4 from "../assets/chess.png";
 import Image5 from "../assets/employee.gif";
-import Image6 from "../assets/genScreenShot.png";
+import Image6 from "../assets/dayr8.png";
 
 
 const styles = {
