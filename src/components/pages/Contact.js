@@ -19,7 +19,7 @@ function Contact(props) {
         </p>
         <p>
           <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>{" "}
-          Phone: 615.310.1384
+          Phone: 615.310.0000
         </p>
         <p>
           <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>{" "}

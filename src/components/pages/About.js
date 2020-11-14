@@ -33,7 +33,7 @@ function About() {
   <Card>
     <Card.Img variant="top" src={Image} alt="keyboard" />
        <Card.Footer>
-      <Button size="md" variant="dark" href="https://www.linkedin.com/in/theresa-eatherly-4362b14a/" target="_blank">Join My Network</Button>
+      <Button size="md" variant="dark" href="https://www.linkedin.com/in/theresa-eatherly/" target="_blank">Join My Network</Button>
     </Card.Footer>
   </Card>
   <Card>
